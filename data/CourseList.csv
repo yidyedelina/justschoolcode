@@ -1,0 +1,156 @@
+sweng1,fundamentals of programming,3,software_engineering,1,1
+sweng2,introduction to SWE,4,software_engineering,1,1
+sweng3,discrete_mathematics,4,software_engineering,1,1
+sweng4,introduction to emerging technology,3,software_engineering,1,1
+sweng5,fundamentals of programming2,3,software_engineering,2,1
+sweng6,digital logic design,3,software_engineering,2,1
+sweng7,data communication and computer networks,4,software_engineering,2,1
+sweng8,database systems,3,software_engineering,2,1
+sweng9,probability and statistics,3,software_engineering,2,1
+sweng10,OOP,4,software_engineering,1,2
+sweng11,DSA,3,software_engineering,1,2
+sweng12,computer organization and architecture,3,software_engineering,1,2
+sweng13,Internet Programming 1,3,software_engineering,1,2
+sweng14,System analysis and modeling,3,software_engineering,1,2
+sweng15,internet programming 2,3,software_engineering,2,2
+sweng16,software requirements engineering,3,software_engineering,2,2
+sweng17,operating systems,3,software_engineering,2,2
+sweng18,Advanced Programming,3,software_engineering,2,2
+sweng19,Formal language and automata theory,3,software_engineering,2,2
+sweng20,principles of compiler design,3,software_engineering,1,3
+sweng21,mobile computing and programming,3,software_engineering,1,3
+sweng22,software design and architecture,3,software_engineering,1,3
+sweng23,computer graphics,3,software_engineering,1,3
+sweng24,integrated engineering team project,3,software_engineering,1,3
+sweng25,Embeded systems,3,software_engineering,2,3
+sweng26,software project management,3,software_engineering,2,3
+sweng27,software quality assurance and testing,3,software_engineering,2,3
+sweng28,research methods in swe,3,software_engineering,2,3
+sweng29,Human computer interaction,3,software_engineering,2,3
+sweng30,Intro to machine learning,3,software_engineering,2,3
+sweng31,senior research project phase 1,3,software_engineering,1,4
+sweng32,software configuration management,4,software_engineering,1,4
+sweng33,software component design,3,software_engineering,1,4
+sweng34,open source software paradigms,3,software_engineering,1,4
+sweng35,distributed systems,3,software_engineering,1,4
+sweng36,senior research project phase 2,3,software_engineering,2,4
+sweng37,software evolution and maintainance,3,software_engineering,2,4
+sweng38,software defined system,4,software_engineering,2,4
+sweng39,software testing,3,software_engineering,2,4
+elec1,fundamentals of programming,3,electrical_engineering,1,1
+elec2,introduction to SWE,4,electrical_engineering,1,1
+elec3,discrete_mathematics,4,electrical_engineering,1,1
+elec4,introduction to emerging technology,3,electrical_engineering,1,1
+elec5,fundamentals of programming2,3,software_engineerign,2,1
+elec6,digital logic design,3,electrical_engineering,2,1
+elec7,data communication and computer networks,4,electrical_engineering,2,1
+elec8,database systems,3,electrical_engineering,2,1
+elec9,probability and statistics,3,electrical_engineering,2,1
+elec10,OOP,4,electrical_engineering,1,2
+elec11,DSA,3,electrical_engineering,1,2
+elec12,computer organization and architecture,3,electrical_engineering,1,2
+elec13,Internet Programming 1,3,electrical_engineering,1,2
+elec14,System analysis and modeling,3,electrical_engineering,1,2
+elec15,internet programming 2,3,electrical_engineering,2,2
+elec16,software requirements engineering,3,electrical_engineering,2,2
+elec17,operating systems,3,electrical_engineering,2,2
+elec18,Advanced Programming,3,electrical_engineering,2,2
+elec19,Formal language and automata theory,3,electrical_engineering,2,2
+elec20,principles of compiler design,3,electrical_engineering,1,3
+elec21,mobile computing and programming,3,electrical_engineering,1,3
+elec22,software design and architecture,3,electrical_engineering,1,3
+elec23,computer graphics,3,electrical_engineering,1,3
+elec24,integrated engineering team project,3,electrical_engineering,1,3
+elec25,Embeded systems,3,electrical_engineering,2,3
+elec26,software project management,3,electrical_engineering,2,3
+elec27,software quality assurance and testing,3,electrical_engineering,2,3
+elec28,research methods in swe,3,electrical_engineering,2,3
+elec29,Human computer interaction,3,electrical_engineering,2,3
+elec30,Intro to machine learning,3,electrical_engineering,2,3
+elec31,senior research project phase 1,3,electrical_engineering,1,4
+elec32,software configuration management,4,electrical_engineering,1,4
+elec33,software component design,3,electrical_engineering,1,4
+elec34,open source software paradigms,3,electrical_engineering,1,4
+elec35,distributed systems,3,electrical_engineering,1,4
+elec36,senior research project phase 2,3,electrical_engineering,2,4
+elec37,software evolution and maintainance,3,electrical_engineering,2,4
+elec38,software defined system,4,electrical_engineering,2,4
+elec39,software testing,3,electrical_engineering,2,4
+mech1,fundamentals of programming,3,mechanical_engineering,1,1
+mech2,introduction to SWE,4,mechanical_engineering,1,1
+mech3,discrete_mathematics,4,mechanical_engineering,1,1
+mech4,introduction to emerging technology,3,mechanical_engineering,1,1
+mech5,fundamentals of programming2,3,software_engineering,2,1
+mech6,digital logic design,3,mechanical_engineering,2,1
+mech7,data communication and computer networks,4,mechanical_engineering,2,1
+mech8,database systems,3,mechanical_engineering,2,1
+mech9,probability and statistics,3,mechanical_engineering,2,1
+mech10,OOP,4,mechanical_engineering,1,2
+mech11,DSA,3,mechanical_engineering,1,2
+mech12,computer organization and architecture,3,mechanical_engineering,1,2
+mech13,Internet Programming 1,3,mechanical_engineering,1,2
+mech14,System analysis and modeling,3,mechanical_engineering,1,2
+mech15,internet programming 2,3,mechanical_engineering,2,2
+mech16,software requirements engineering,3,mechanical_engineering,2,2
+mech17,operating systems,3,mechanical_engineering,2,2
+mech18,Advanced Programming,3,mechanical_engineering,2,2
+mech19,Formal language and automata theory,3,mechanical_engineering,2,2
+mech20,principles of compiler design,3,mechanical_engineering,1,3
+mech21,mobile computing and programming,3,mechanical_engineering,1,3
+mech22,software design and architecture,3,mechanical_engineering,1,3
+mech23,computer graphics,3,mechanical_engineering,1,3
+mech24,integrated engineering team project,3,mechanical_engineering,1,3
+mech25,Embeded systems,3,mechanical_engineering,2,3
+mech26,software project management,3,mechanical_engineering,2,3
+mech27,software quality assurance and testing,3,mechanical_engineering,2,3
+mech28,research methods in swe,3,mechanical_engineering,2,3
+mech29,Human computer interaction,3,mechanical_engineering,2,3
+mech30,Intro to machine learning,3,mechanical_engineering,2,3
+mech31,senior research project phase 1,3,mechanical_engineering,1,4
+mech32,software configuration management,4,mechanical_engineering,1,4
+mech33,software component design,3,mechanical_engineering,1,4
+mech34,open source software paradigms,3,mechanical_engineering,1,4
+mech35,distributed systems,3,mechanical_engineering,1,4
+mech36,senior research project phase 2,3,mechanical_engineering,2,4
+mech37,software evolution and maintainance,3,mechanical_engineering,2,4
+mech38,software defined system,4,mechanical_engineering,2,4
+mech39,software testing,3,mechanical_engineering,2,4
+elmech1,fundamentals of programming,3,electromechanical_engineering,1,1
+elmech2,introduction to SWE,4,electromechanical_engineering,1,1
+elmech3,discrete_mathematics,4,electromechanical_engineering,1,1
+elmech4,introduction to emerging technology,3,electromechanical_engineering,1,1
+elmech5,fundamentals of programming2,3,electromechanical,2,1
+elmech6,digital logic design,3,electromechanical_engineering,2,1
+elmech7,data communication and computer networks,4,electromechanical_engineering,2,1
+elmech8,database systems,3,electromechanical_engineering,2,1
+elmech9,probability and statistics,3,electromechanical_engineering,2,1
+elmech10,OOP,4,electromechanical_engineering,1,2
+elmech11,DSA,3,electromechanical_engineering,1,2
+elmech12,computer organization and architecture,3,electromechanical_engineering,1,2
+elmech13,Internet Programming 1,3,electromechanical_engineering,1,2
+elmech14,System analysis and modeling,3,electromechanical_engineering,1,2
+elmech15,internet programming 2,3,electromechanical_engineering,2,2
+elmech16,software requirements engineering,3,electromechanical_engineering,2,2
+elmech17,operating systems,3,electromechanical_engineering,2,2
+elmech18,Advanced Programming,3,electromechanical_engineering,2,2
+elmech19,Formal language and automata theory,3,electromechanical_engineering,2,2
+elmech20,principles of compiler design,3,electromechanical_engineering,1,3
+elmech21,mobile computing and programming,3,electromechanical_engineering,1,3
+elmech22,software design and architecture,3,electromechanical_engineering,1,3
+elmech23,computer graphics,3,electromechanical_engineering,1,3
+elmech24,integrated engineering team project,3,electromechanical_engineering,1,3
+elmech25,Embeded systems,3,electromechanical_engineering,2,3
+elmech26,software project management,3,electromechanical_engineering,2,3
+elmech27,software quality assurance and testing,3,electromechanical_engineering,2,3
+elmech28,research methods in swe,3,electromechanical_engineering,2,3
+elmech29,Human computer interaction,3,electromechanical_engineering,2,3
+elmech30,Intro to machine learning,3,electromechanical_engineering,2,3
+elmech31,senior research project phase 1,3,electromechanical_engineering,1,4
+elmech32,software configuration management,4,electromechanical_engineering,1,4
+elmech33,software component design,3,electromechanical_engineering,1,4
+elmech34,open source software paradigms,3,electromechanical_engineering,1,4
+elmech35,distributed systems,3,electromechanical_engineering,1,4
+elmech36,senior research project phase 2,3,electromechanical_engineering,2,4
+elmech37,software evolution and maintainance,3,electromechanical_engineering,2,4
+elmech38,software defined system,4,electromechanical_engineering,2,4
+elmech39,software testing,3,electromechanical_engineering,2,4
