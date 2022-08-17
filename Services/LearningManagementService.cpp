@@ -19,7 +19,7 @@ vector<StudentMark> LearningManagementService::getStudentsMark(string department
     for(auto student : students){
         StudentMark studentMark;
         studentMark.name = student.getName();
-        vector<EnrolledCourse> enrolledCourse = enrolledCourseListRef->filterEnrolledCourseList(student.getId(), year, semester);
+        vector<EnrolledCourse> enrolledCourse = enrolledCourseListRef->filterEnrolledCourseMap(student.getId(), year, semester);
         studentMark.gpa = CalculateGpa(enrolledCourse);
 
         for(auto enrollCourse : enrolledCourse){
@@ -40,7 +40,7 @@ LearningManagementService::LearningManagementService() {
 }
 
 StudentMark LearningManagementService::getStudentMark(string id, int year, int semester) {
-    vector<EnrolledCourse> enrolledCourseList = enrolledCourseListRef->filterEnrolledCourseList(id,year, semester);
+    vector<EnrolledCourse> enrolledCourseList = enrolledCourseListRef->filterEnrolledCourseMap(id,year, semester);
     StudentMark studentMark;
     studentMark.name = studentListRef->getStudent(id).getName();
     studentMark.gpa = CalculateGpa(enrolledCourseList);
@@ -128,7 +128,7 @@ int LearningManagementService::validateId(string Id){
         throw ValidationErrorException("Invalid Id format");
     }
     StudentEntity studentEntity = studentListRef->getStudent(Id);
-    if(studentEntity.getName() == "")
+    if(studentEntity.getName().empty())
     {
         throw ValidationErrorException("No student found with this Id");
     }
@@ -164,7 +164,9 @@ void LearningManagementService::RegisterCommand(vector<string> parsedData) {
         getline(cin, input);
         //TODO: implement registration logic for existing student;
         if(input == "yes" || input == "y"){
-
+            vector<Course> courses = courseListRef->getCourseList(studentEntity.getDepartment(), current_year - studentEntity.getJoinYear() + 1, current_semester);
+            vector<EnrolledCourse> enrolledCourse = enrolledCourseListRef->filterEnrolledCourseMap(studentEntity.getId(), current_year - studentEntity.getJoinYear() + 1, current_semester);
+            
         }
         return;
     }

@@ -44,7 +44,8 @@ StudentEntity StudentList::getStudent(string id) {
             return student;
         }
     }
-    return nullptr;
+    StudentEntity studentEntity(id);
+    return studentEntity;
 }
 
 void StudentList::addStudent(StudentEntity student) {

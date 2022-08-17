@@ -20,7 +20,15 @@ CourseList::CourseList(string department, int year, int semester) {
 vector<Course> CourseList::getCourseList() {
     return this->courseList;
 }
-
+vector<Course> CourseList::getCourseList(string department, int year, int semester) {
+    vector<Course> courseLi;
+    for(auto course:courseList){
+        if(course.getYear() == year && course.getSemester() == semester) {
+            courseLi.push_back(course);
+        }
+    }
+    return courseLi;
+}
 CourseList::CourseList() {
     vector<string*> data = loadData("../data/CourseList.csv",6);
     for(auto row : data){

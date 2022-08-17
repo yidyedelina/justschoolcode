@@ -102,4 +102,16 @@ vector<EnrolledCourse> EnrolledCourseList::filterEnrolledCourseList(string stude
     return filteredEnrolledCourse;
 }
 
+vector<EnrolledCourse> EnrolledCourseList::filterEnrolledCourseMap(string studentId, int year, int semester) {
+    vector<EnrolledCourse> filteredEnrolledCourse;
+    vector<EnrolledCourse> temp = enrolledCourseMap[studentId];
+    for(auto enrollCourse: temp){
+        Course cr = courseListRef->getCourse(enrollCourse.getCourseCode());
+        if(cr.getYear() == year && cr.getSemester() == semester){
+            filteredEnrolledCourse.push_back(enrollCourse);
+        }
+    }
+    return filteredEnrolledCourse;
+}
+
 

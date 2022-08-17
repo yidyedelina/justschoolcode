@@ -65,25 +65,26 @@ void Views::homePage() {
         }
         else if(command == "filter"){
             try {
-                seeSectionScore(service.FilterCommand(parsedInput));
+                gpaShower(service.FilterCommand(parsedInput));
             }catch(ValidationErrorException e){
                 cout << e.what() << endl;
             }
         }
         else if(command == "list"){
             try {
-                service.ListCommand(parsedInput);
+                gpaShower(service.ListCommand(parsedInput));
             }catch(ValidationErrorException e){
                 cout << e.what() << endl;
             }
         }
         else if(command == "generate"){
             service.generateStudentEnrolledData();
+        } else if(command == "exit"){
+            exit(1);
         }
         else cout << "Invalid Command" << "\n";
     }
 }
-
 Views::Views() {
 
 }
@@ -123,20 +124,20 @@ void Views::seeSectionScore(vector<StudentMark> studentMark)
         cout << "No data available" << endl;
         return;
     }
-    printString((studentMark[0].grades.size())*17 + 38, '-');
-    printf("|%-30s|", "Name");
+    printString((studentMark[0].grades.size())*12 + 36, '-');
+    printf("|%-28s|", "Name");
 
     for(auto header: studentMark[0].grades)
     {
-        printf("%-15s |", header.subjectName.substr(0,15).c_str());
+        printf("%-10s |", header.subjectName.substr(0,10).c_str());
     }
     printf("GPA |\n");
-    printString((studentMark[0].grades.size())*17 + 38, '-');
+    printString((studentMark[0].grades.size())*12 + 36, '-');
     for(auto mark : studentMark) {
-        printf("|%-30s|", mark.name.c_str());
+        printf("|%-28s|", mark.name.c_str());
         for(auto grade: mark.grades)
         {
-            printf("%-15.2f |", grade.mark);
+            printf("%-10.2f |", grade.mark);
         }
         printf("%.2f|\n", mark.gpa);
     }
@@ -154,5 +155,21 @@ void Views::seeStudentScore(StudentMark* studentMark) {
     for(auto grade: studentMark->grades)
     {
         cout << grade.subjectName << ": " << grade.mark <<endl;
+    }
+}
+void Views::gpaShower(vector<StudentMark> studentMark){
+    if(studentMark.size() ==  0)
+    {
+        return;
+    }
+    printString(36, '-');
+    printf("|%-30s|", "Name");
+    printf("CGPA |\n");
+    printString(36, '-');
+    int i = 1;
+    for(auto mark : studentMark) {
+        printf("%2d", i++);
+        printf("|%-28s|", mark.name.c_str());
+        printf("%.2f|\n", mark.gpa);
     }
 }

@@ -19,6 +19,8 @@ public:
     void seeSectionScore(vector<StudentMark> studentMark);
 
     void seeStudentScore(StudentMark* studentMark);
+
+    void gpaShower(vector<StudentMark> studentMarkList);
 };
 
 

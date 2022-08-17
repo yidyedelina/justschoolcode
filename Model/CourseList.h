@@ -20,6 +20,8 @@ public:
     void updateCourse(Course course);
     Course getCourse(string id);
     vector<Course> getCourseList();
+
+    vector<Course> getCourseList(string department, int year, int semester);
 };
 
 

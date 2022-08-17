@@ -18,6 +18,7 @@ public:
     EnrolledCourseList(string studentId, int year, int semester);
     EnrolledCourseList();
     vector<EnrolledCourse> filterEnrolledCourseList(string studentId, int year, int semester);
+    vector<EnrolledCourse> filterEnrolledCourseMap(string studentId, int year, int semester);
     static string MarkToLetterGrade(float grade);
     double CalculateGpa();
     void addEnrolledCourse(EnrolledCourse enrolledCourse);
